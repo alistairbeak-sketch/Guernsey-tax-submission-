@@ -1,32 +1,28 @@
-.tax-form {
+body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
+}
+
+form {
+    background-color: white;
+    border-radius: 5px;
     padding: 20px;
-    border-radius: 8px;
 }
 
-.tax-form h1 {
-    color: #333;
-}
-
-.tax-form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-}
-
-.tax-form input[type='text'],
-.tax-form input[type='number'],
-.tax-form select {
-    width: 100%;
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
     padding: 10px;
-    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
-.tax-form button {
-    background-color: #4CAF50;
+button {
+    background-color: #0056b3;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -34,6 +30,6 @@
     cursor: pointer;
 }
 
-.tax-form button:hover {
-    background-color: #45a049;
+button:hover {
+    background-color: #004494;
 }
